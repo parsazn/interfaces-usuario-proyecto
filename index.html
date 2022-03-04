@@ -1,9 +1,33 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<title>Formulario</title>
-</head>
-<body>
-<h1>Hola mundo</h1>
-</body>
-</html>
+<form action="" autocomplete="on">
+    <p>
+    <label for="nombre">Nombre:</label>
+    <input type="text" name="nombre" id="nombre" title='Introduzca su Nombre' placeholder="nombre" required = "on"
+    autocomplete="name"/>
+    <br>
+    <br>
+    <label for="lname">Primer Apellido:</label>
+    <input type="text" id="lname" name="lname" title="Introduce your lastname" placeholder="primer apellido" required = "on">
+    <br>
+    <br>
+    <label for="birthday">Fecha de nacimiento:</label>
+    <input type="date" id="birthday" name="birthday" title="Introduce your birthday">
+    <br>
+    <br>
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" title="Introduce your email" placeholder="correo@domain.com" required="on">
+    <br>
+    <br>
+    <label for="telephone">Telefono:</label>
+    <input type="tel" id="telephone" name="telephone" title="Introduce your telephone" placeholder="+34 111 11 11 ">
+    <br>
+    <br>
+    <label for="password">Contraseña:</label>
+    <input type="password" id="password" name="password" title="Introduce your password" required="on">
+    <br>
+    <br>
+    <label for="color">Color:</label>
+    <input type="color" id="color" name="color" title="Introduce your favorite color">
+    </p>
+
+    <input type="submit" value="Submit" />
+    </form>
